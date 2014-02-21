@@ -31,6 +31,7 @@
   },
   "locales": {
    "en": {
+<<<<<<< HEAD
       "name": "Spot the NASA Station",
       "description": ""
     },
@@ -38,5 +39,18 @@
       "name": "Spot the NASA Station",
       "description": ""
     },
+=======
+      "name": "Firefox OS Boilerplate App",
+      "description": "Boilerplate Firefox OS app with example use cases to get started"
+    },
+    "en-US": {
+      "name": "Firefox OS Boilerplate App",
+      "description": "Boilerplate Firefox OS app with example use cases to get started"
+    },
+    "it-IT": {
+      "name": "Firefox OS Boilerplate App",
+      "description": "Boilerplate per FirefoxOS con esempi e casi d'uso per iniziare lo sviluppo"
+    }
+>>>>>>> ecc40a8f462849be45f954600a0fc6a207b0aa78
   }
 }
