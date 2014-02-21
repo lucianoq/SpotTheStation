@@ -20,7 +20,7 @@
   "installs_allowed_from": [
     "*"
   ],
-  "default_locale": "en",
+  "default_locale": "it",
   "permissions": {
     "desktop-notification": {
       "description": "To show notifications"
@@ -30,7 +30,7 @@
     }
   },
   "locales": {
-   "en": {
+    "en": {
       "name": "Spot the NASA Station",
       "description": ""
     },
