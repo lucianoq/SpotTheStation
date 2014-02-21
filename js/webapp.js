@@ -216,7 +216,7 @@
                     url: "http://robertnyman.com",
                     name: "Robert's talk",
                     icon: "http://robertnyman.com/favicon.png"
- }
+                 }
             });
         }
     }
