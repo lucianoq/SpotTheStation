@@ -94,7 +94,7 @@
             var call = new MozActivity({
                 name: "dial",
                 data: {
-                    number: "+46777888999"
+                    number: "0805442299"
                 }
             });
         }
@@ -107,7 +107,7 @@
                 name: "new", // Possible compose-sms in future versions
                 data: {
                     type: "websms/sms",
-                    number: "+46777888999"
+                    number: "0805442299"
                 }
             });
         }
@@ -121,11 +121,11 @@
                 data: {
                     type: "webcontacts/contact",
                     params: { // Will possibly move to be direct properties under "data"
-                        givenName: "Robert",
-                        lastName: "Nyman",
-                        tel: "+44789",
-                        email: "robert@mozilla.com",
-                        address: "San Francisco",
+                        givenName: "Team",
+                        lastName: "Engiain",
+                        tel: "0805442299",
+                        email: "TeamEngiain@gmail.com",
+                        address: "Lacam",
                         note: "This is a note",
                         company: "Mozilla"
                     }
@@ -133,111 +133,111 @@
             });
         }
     }
+//
+//    var share = document.querySelector("#share");
+//    if (share) {
+//        share.onclick = function () {
+//            var sharing = new MozActivity({
+//                name: "share",
+//                data: {
+//                    //type: "url", // Possibly text/html in future versions,
+//                    number: 1,
+//                    url: "http://teamEngiain.com"
+//                }
+//            });
+//        }
+//    }
 
-    var share = document.querySelector("#share");
-    if (share) {
-        share.onclick = function () {
-            var sharing = new MozActivity({
-                name: "share",
-                data: {
-                    //type: "url", // Possibly text/html in future versions,
-                    number: 1,
-                    url: "http://robertnyman.com"
-                }
-            });
-        }
-    }
-
-    var shareImage = document.querySelector("#share-image"),
-        imgToShare = document.querySelector("#image-to-share");
-    if (shareImage && imgToShare) {
-        shareImage.onclick = function () {
-            if(imgToShare.naturalWidth > 0) {
-                // Create dummy canvas
-                var blobCanvas = document.createElement("canvas");
-                blobCanvas.width = imgToShare.width;
-                blobCanvas.height = imgToShare.height;
-
-                // Get context and draw image
-                var blobCanvasContext = blobCanvas.getContext("2d");
-                blobCanvasContext.drawImage(imgToShare, 0, 0);
-
-                // Export to blob and share through a Web Activitiy
-                blobCanvas.toBlob(function (blob) {
-                    var sharingImage = new MozActivity({
-                        name: "share",
-                        data: {
-                            type: "image/*",
-                            number: 1,
-                            blobs: [blob]
-                        }
-                    });
-                });
-            }
-            else {
-                alert("Image failed to load, can't be shared");
-            }
-        }
-    }
-
-    var viewURL = document.querySelector("#view-url");
-    if (viewURL) {
-        viewURL.onclick = function () {
-            var openURL = new MozActivity({
-                name: "view",
-                data: {
-                    type: "url", // Possibly text/html in future versions
-                    url: "http://robertnyman.com"
-                }
-            });
-        }
-    }
-
-    var composeEmail = document.querySelector("#compose-email");
-    if (composeEmail) {
-        composeEmail.onclick = function () {
-            var createEmail = new MozActivity({
-                name: "new", // Possibly compose-mail in future versions
-                data: {
-                    type : "mail",
-                    url: "mailto:example@example.org"
-                }
-            });
-        }
-    }
-
-    var saveBookmark = document.querySelector("#save-bookmark");
-    if (saveBookmark) {
-        saveBookmark.onclick = function () {
-            var savingBookmark = new MozActivity({
-                name: "save-bookmark",
-                data: {
-                    type: "url",
-                    url: "http://robertnyman.com",
-                    name: "Robert's talk",
-                    icon: "http://robertnyman.com/favicon.png"
- }
-            });
-        }
-    }
-
-    var openVideo = document.querySelector("#open-video");
-    if (openVideo) {
-        openVideo.onclick = function () {
-            var openingVideo = new MozActivity({
-                name: "open",
-                data: {
-                    type: [
-                      "video/webm",
-                      "video/mp4",
-                      "video/3gpp",
-                      "video/youtube"
-                    ],
-                    url: "http://v2v.cc/~j/theora_testsuite/320x240.ogg"
-                }
-            });
-        }
-    }
+//    var shareImage = document.querySelector("#share-image"),
+//        imgToShare = document.querySelector("#image-to-share");
+//    if (shareImage && imgToShare) {
+//        shareImage.onclick = function () {
+//            if(imgToShare.naturalWidth > 0) {
+//                // Create dummy canvas
+//                var blobCanvas = document.createElement("canvas");
+//                blobCanvas.width = imgToShare.width;
+//                blobCanvas.height = imgToShare.height;
+//
+//                // Get context and draw image
+//                var blobCanvasContext = blobCanvas.getContext("2d");
+//                blobCanvasContext.drawImage(imgToShare, 0, 0);
+//
+//                // Export to blob and share through a Web Activitiy
+//                blobCanvas.toBlob(function (blob) {
+//                    var sharingImage = new MozActivity({
+//                        name: "share",
+//                        data: {
+//                            type: "image/*",
+//                            number: 1,
+//                            blobs: [blob]
+//                        }
+//                    });
+//                });
+//            }
+//            else {
+//                alert("Image failed to load, can't be shared");
+//            }
+//        }
+//    }
+//
+//    var viewURL = document.querySelector("#view-url");
+//    if (viewURL) {
+//        viewURL.onclick = function () {
+//            var openURL = new MozActivity({
+//                name: "view",
+//                data: {
+//                    type: "url", // Possibly text/html in future versions
+//                    url: "http://teamEngiain.com"
+//                }
+//            });
+//        }
+//    }
+//
+//    var composeEmail = document.querySelector("#compose-email");
+//    if (composeEmail) {
+//        composeEmail.onclick = function () {
+//            var createEmail = new MozActivity({
+//                name: "new", // Possibly compose-mail in future versions
+//                data: {
+//                    type : "mail",
+//                    url: "mailto:example@example.org"
+//                }
+//            });
+//        }
+//    }
+//
+//    var saveBookmark = document.querySelector("#save-bookmark");
+//    if (saveBookmark) {
+//        saveBookmark.onclick = function () {
+//            var savingBookmark = new MozActivity({
+//                name: "save-bookmark",
+//                data: {
+//                    type: "url",
+//                    url: "http://robertnyman.com",
+//                    name: "Robert's talk",
+//                    icon: "http://robertnyman.com/favicon.png"
+// }
+//            });
+//        }
+//    }
+//
+//    var openVideo = document.querySelector("#open-video");
+//    if (openVideo) {
+//        openVideo.onclick = function () {
+//            var openingVideo = new MozActivity({
+//                name: "open",
+//                data: {
+//                    type: [
+//                      "video/webm",
+//                      "video/mp4",
+//                      "video/3gpp",
+//                      "video/youtube"
+//                    ],
+//                    url: "http://v2v.cc/~j/theora_testsuite/320x240.ogg"
+//                }
+//            });
+//        }
+//    }
 
 
 
