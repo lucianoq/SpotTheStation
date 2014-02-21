@@ -2,7 +2,7 @@
   "version": "1",
   "name": "Spot the NASA Station",
   "launch_path": "/index.html",
-  "description": "Boilerplate Firefox OS app with example use cases to get started",
+  "description": "Spot the NASA Station",
   "icons": {
     "16": "/images/logo16.png",
     "32": "/images/logo32.png",
@@ -14,8 +14,8 @@
     "128": "/images/logo128.png"
   },
   "developer": {
-    "name": "Robert Nyman",
-    "url": "http://robertnyman.com"
+    "name": "Team Engiain",
+    "url": ""
   },
   "installs_allowed_from": [
     "*"
@@ -31,6 +31,15 @@
   },
   "locales": {
    "en": {
+<<<<<<< HEAD
+      "name": "Spot the NASA Station",
+      "description": ""
+    },
+    "it-IT": {
+      "name": "Spot the NASA Station",
+      "description": ""
+    },
+=======
       "name": "Firefox OS Boilerplate App",
       "description": "Boilerplate Firefox OS app with example use cases to get started"
     },
@@ -42,5 +51,6 @@
       "name": "Firefox OS Boilerplate App",
       "description": "Boilerplate per FirefoxOS con esempi e casi d'uso per iniziare lo sviluppo"
     }
+>>>>>>> ecc40a8f462849be45f954600a0fc6a207b0aa78
   }
 }
