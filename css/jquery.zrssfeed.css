@@ -8,14 +8,14 @@
  */
 
 body {
-	margin: 1em 3em;
+	margin: 0 1em;
 	font-family: Tahoma, Genevam, sans-serif;
 }
 
 .rssFeed {
 	font-family: Arial, Helvetica, sans-serif;
 	font-size: 90%;
-	margin: 2em 3em;
+	margin: 0;
 }
 .rssFeed a {
 	color: #444;
@@ -49,4 +49,8 @@ body {
 .rssRow .rssMedia {
 	padding: 0.5em;
 	font-size: 1em;
+}
+
+div#mainbody {
+    text-align: center;
 }

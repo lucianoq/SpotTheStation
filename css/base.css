@@ -120,9 +120,17 @@ header.show-install h1 {
 
 #main button {
     display: inline-block;
-    width: 49%;
+    width: 100px;
+    height: 50px;
     vertical-align: top;
     margin: 0 auto 2rem;
+}
+
+#main select {
+    width: 200px;
+    height: 25px;
+    margin-bottom: 10px;
+    text-align: center;
 }
 
 #image-to-share {
