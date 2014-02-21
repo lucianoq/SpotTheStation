@@ -1,6 +1,6 @@
 {
   "version": "1",
-  "name": "Firefox OS Boilerplate App",
+  "name": "Spot the NASA Station",
   "launch_path": "/index.html",
   "description": "Boilerplate Firefox OS app with example use cases to get started",
   "icons": {
@@ -30,26 +30,6 @@
     }
   },
   "locales": {
-    "ar": {
-      "name": "التطبيق المساعد لبدء التطوير لـFirefox OS",
-      "description": "تطبيق يُساعدك على بدء التطوير لنظام Firefox مُرفق بأمثلة عن حالات الاستخدام"
-    },
-    "bn-IN": {
-      "name": "ফায়ারফক্স ওএস বয়েলারপ্লেট অ্যাপ",
-      "description": "শুরু করার জন্য ব্যবহারিক উদাহরণ সহ ফায়ারফক্স ওএস বয়েলারপ্লেট অ্যাপ"
-    },
-    "cs": {
-      "name": "Aplikace Firefox OS Boilerplate",
-      "description": "Aplikace Boilerplate Firefox OS s ukázkovými příklady použití, které vám umožní začít"
-    },
-    "de": {
-      "name": "Firefox OS Boilerplate App",
-      "description": "Boilerplate Firefox OS App mit Beispiel Anwendungsfälle, um loszulegen"
-    },
-    "el": {
-      "name": "Firefox OS Boilerplate Εφαρμογή",
-      "description": "Boilerplate Firefox OS εφαρμογή με παραδείγματα χρήσης για να ξεκινήσετε"
-    },
    "en": {
       "name": "Firefox OS Boilerplate App",
       "description": "Boilerplate Firefox OS app with example use cases to get started"
