@@ -433,11 +433,11 @@
             logVisibilityDisplay.innerHTML = "I have focus!<br>"
             document.addEventListener("visibilitychange", function () {
                 if (document.hidden) {
-                    console.log("Firefox OS Boilerplate App is hidden");
+                    console.log("Spot the NASA Station App is hidden");
                     logVisibilityDisplay.innerHTML += "Now I'm in the background<br>";
                 }
                 else {
-                    console.log("Firefox OS Boilerplate App has focus");
+                    console.log("Spot the NASA Station App has focus");
                     logVisibilityDisplay.innerHTML += "I have focus!<br>";
                 }
             });
