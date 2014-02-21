@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="61ac21cb-46fd-4802-a4b9-9d74f31b98c0" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/manifest.webapp" afterPath="$PROJECT_DIR$/manifest.webapp" />
     </list>
     <ignored path="spot-the-station.iws" />
@@ -47,7 +46,7 @@
       <file leaf-file-name="manifest.webapp" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/manifest.webapp">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="41" column="14" selection-start="1130" selection-end="1130" vertical-scroll-proportion="0.7407407" vertical-offset="483" max-vertical-offset="2737">
+            <state line="9" column="31" selection-start="269" selection-end="269" vertical-scroll-proportion="0.33333334" vertical-offset="0" max-vertical-offset="1104">
               <folding />
             </state>
           </provider>
@@ -196,7 +195,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/manifest.webapp">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="41" column="14" selection-start="1130" selection-end="1130" vertical-scroll-proportion="0.7407407" vertical-offset="483" max-vertical-offset="2737">
+        <state line="9" column="31" selection-start="269" selection-end="269" vertical-scroll-proportion="0.33333334" vertical-offset="0" max-vertical-offset="1104">
           <folding />
         </state>
       </provider>
