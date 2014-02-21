@@ -1,3 +1,4 @@
-$(document).ready(function () {
-    $("#main").rssfeed("http://spotthestation.nasa.gov/sightings/xml_files/Italy_None_Adelfia.xml");
-});
+function cerca() {
+    var nome = $("#select03").val();
+    $("#list").rssfeed("http://spotthestation.nasa.gov/sightings/xml_files/"+nome+".xml");
+}
